@@ -1,0 +1,4 @@
+payment:
+  port: 50051
+audit:
+  port: 50052

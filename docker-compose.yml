@@ -1,0 +1,10 @@
+version: '3'
+services:
+  payment:
+    build:.
+    ports:
+      - "50051:50051"
+  audit:
+    image: fintech/audit
+    ports:
+      - "50052:50052"
